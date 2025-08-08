@@ -1,0 +1,141 @@
+body {
+        background-color: rgba(32, 33, 33, 0.356); 
+        /* font-size: 35; */
+}
+.main-div {
+    border: 10px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 500px;
+    width: 520px;
+    background-color: gray;
+    position: relative;
+    top: 100px;
+    left: 450px;
+}
+
+#screen {
+    width: 80%;
+    font-size: 25px;
+}
+
+.text {
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-plus, .btn-minus, .btn-times, .btn-divide, .btn-0, .btn-enter{
+    position: relative;
+    padding: 28px;
+}
+.btn-4 {
+    position: absolute;
+    left: 0px;
+    top: 245px;
+}
+.btn-5 {
+    position: absolute;
+    left: 70px;
+    top: 245px;
+}
+.btn-6 {
+    position: absolute;
+    left: 140px;
+    top: 245px;
+}
+.btn-7 {
+    position: absolute;
+    left: 0px;
+    top: 332px;
+}
+.btn-8 {
+    position: absolute;
+    left: 70px;
+    top: 332px;
+}
+.btn-9 {
+    position: absolute;
+    left: 140px;
+    top: 332px;
+}
+.btn-times {
+    position: absolute;
+    left: 210px;
+    top: 245px;
+}
+.btn-divide {
+    position: absolute;
+    left: 280px;
+    top: 245px;
+}
+.btn-0 {
+    position: absolute;
+    left: 210px;
+    top: 332px;
+}
+.btn-dec {
+    position: absolute;
+    top: 332px;
+    left: 280px;
+    width: 30px;
+    height: 73px;
+}
+.btn-enter {
+    position: absolute;
+    left: 346px;
+    top: 245px;
+    height: 160px;
+    width: 20px;
+}
+
+.btn-del {
+    width: 40px;
+    height: 75px;
+    color: red;
+    position: absolute;
+    right: 93px;
+}    
+.btn-sqr{
+    position: absolute;
+    top: 332px;
+    left: 312px;
+    width: 30px;
+    height: 73px;    
+}
+.btn-clr {
+    width: 43px;  
+    height: 75px;
+    color: red;
+    position: absolute;
+    right: 134px;
+} 
+
+/* 
+ <footer>
+    <p>
+        <label for="typeHere" > First name: </label> 
+        <input type="text" name="typeHere" id="typeHere" placeholder="Type here" autocomplete="on" required autofocus><br>
+    </p>
+    <p>
+        <label for="lastHere" > Last name: </label> 
+        <input type="text" name="lastHere"  id= "lastHere" placeholder="Type here" autocomplete="on" required ><br>
+    </p>
+    <p>
+        <label for="Password" > Password: </label> 
+        <input type="password" name="Password"  id = "Password" placeholder="Your Secret " required ><br>
+    </p>
+    <p>
+        <label for="Phone" > Phone: </label> 
+        <input type="tel" name="Phone"  id = "Phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required ><br>
+    </p>
+    <p>
+        <label for="decade" > Decade: <Dlabel> 
+        <input type="number" name="decade" id ="decade" min="1950" max="2023" step="10" value="2000">
+    </p><br>
+    <fieldset>
+        <legend>Send me a note.</legend>
+        <label for="message"> Your Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your Message Here."></textarea>
+    </fieldset>
+</footer>  */
