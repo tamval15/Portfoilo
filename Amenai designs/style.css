@@ -1,0 +1,116 @@
+html {
+    background-color: white;
+}
+
+hr {
+    position: relative;
+    top: 10px;
+}
+
+.login {
+    position: relative;
+    left: -1000px;
+}
+.container {
+    list-style: none;
+    right: 300px;
+    padding: 0;
+    width: 35%;
+    position: relative;
+    top: -20px;
+    left: 450px;
+    display: flex;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container li {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+.container li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.container li a:hover {
+    color: red;
+    font-size: 32px;
+}
+
+.btn {
+    color: #333;
+    font-size: 28px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 3px;
+    align-items: center;
+    position: relative;
+    left: 1200px;
+    top: -85px;   
+}
+
+h1 {
+    text-align: center;
+    color: #031746;
+    font-size: 50px;
+}
+
+.medicine {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: cyan;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 350px;
+}
+
+.medicine a {
+    background-color: #031746;
+    color: white;
+}
+.dine-ease {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: #F5EB76;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 650px;
+    bottom: 265px;
+}
+.find-cars {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: #D6A589;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 350px;
+    bottom: 235px;
+}
+.electronics {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: #ADD99F;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 650px;
+    bottom: 500px;
+}

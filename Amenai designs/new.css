@@ -1,0 +1,190 @@
+html {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+}
+
+.logo {
+    color: #333;
+}
+
+.container {
+    list-style: none;
+    right: 300px;
+    padding: 0;
+    width: 35%;
+    position: relative;
+    top: -120px;
+    left: 450px;
+    display: flex;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container li {
+    padding: 0;
+    height: 100%;
+    width: 35%;
+    color: #333;
+    text-align: center;
+}
+
+.container li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.container li a:hover {
+    color: lightsalmon;
+    font-size: 27px;
+}
+
+.login {
+    position: relative;
+    left: 1200px;
+    top: -300px;
+    padding: 3000px solid navy;
+    font-size: 30px;
+    color: #333;
+    border: 1.5px solid #333;
+    border-radius: 10px;
+    width: 1200px;
+}
+#btn {
+    color: #333;
+    font-size: 28px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 3px;
+    align-items: center;
+    position: relative;
+    left: 1200px;
+    top: -185px;   
+}
+
+#btn:hover {
+    color: lightsalmon;
+    padding: 3.5px;
+    background-color: whitesmoke;
+}
+h1 {
+    text-align: center;
+    color: #000033;
+    font-size: 50px;
+    position: relative;
+    top: -150px;
+}
+
+.medicine {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: cyan;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.medicine h3, .medicine p {
+    color: #031746;
+}
+
+.medicine a {
+    background-color: #031746;
+    color: white;
+    border: 10px solid navy;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.dine-ease {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: #F5EB76;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 700px;
+    bottom: 465px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dine-ease h3, .dine-ease p {
+    color: #333;
+}
+
+.dine-ease a {
+    background-color: #333;
+    color: white;
+    border: 10px solid #333;
+    border-radius: 20px;
+}
+
+.find-cars {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: #D6A589;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 350px;
+    bottom: 435px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.find-cars h3, .find-cars p {
+    color: #333;
+}
+
+.find-cars a {
+    background-color: #333;
+    color: white;
+    border: 10px solid #333;
+    border-radius: 20px;
+}
+
+.electronics {
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    background-color: #ADD99F;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 700px;
+    bottom: 750px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.electronics h3, .electronics p {
+    color: #333;
+}
+
+.electronics a {
+    background-color: #333;
+    color: white;
+    border: 10px solid #333;
+    border-radius: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 700px;
+   right: -1190px;
+}

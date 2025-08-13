@@ -1,0 +1,42 @@
+body {
+    background-color: brown;
+}
+#btn-1 {
+    background-color: red;
+    font-size: larger;
+    border: 10px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#btn-2 {
+    background-color: red;
+    font-size: larger;
+    border: 10px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#btn-3 {
+    background-color: red;
+    font-size: larger;    
+    border: 10px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#btn-4 {
+    background-color: #ff0000;
+    font-size: larger;
+    border: 10px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+p {
+    font-size: 25px;
+}
