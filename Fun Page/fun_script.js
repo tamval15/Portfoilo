@@ -3,8 +3,8 @@ console.log("Hi Everyone!");
 const btn_1 = document.getElementById('btn-1');
 const pic = document.createElement('img');
 btn_1.addEventListener("click", function(){
-    pic.src = 'meme1.jpg';
-    pic.height = 600;
+    pic.src = 'dan.png';
+    pic.height = 300;
     pic.width = 300;
     document.querySelector('.container1').appendChild(pic)
     });
