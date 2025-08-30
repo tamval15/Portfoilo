@@ -7,13 +7,12 @@ html  {
 body {
     margin: 0px;
     padding: 0px;
-}
+} 
 
 main {
     margin-bottom: 0px; 
     padding-bottom: 0px; 
 }
-
 .logo {
     color: #333;
     display: inline-block;
@@ -21,26 +20,20 @@ main {
 }
 
 header {
-    position: relative;
     width: 100%;
     padding: 20px 0;
 }
-
 .container {
-    margin-top: 0;
-    padding-top: 0;
     list-style: none;
     padding: 0;
-    width: auto;
+    margin: 0;
     display: flex;
-    justify-content: center;
     gap: 30px;
-    position: static;
+    font-size: 25px;
     color: red;
     text-align: center;
-    font-size: 25px;
+    justify-content: center;
 }
-
 .container li {
     padding: 0;
     height: 100%;
@@ -62,23 +55,30 @@ header {
     color: lightsalmon;
     font-size: 27px;
 }
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 40px;
+}
+
+.header-row img {
+    display: block;
+}
 
 .login {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 30px;
+    font-size: 25px;
     color: #333;
     border: 1.5px solid #333;
     border-radius: 10px;
     padding: 10px 20px;
     text-decoration: none;
     background: white;
-    z-index: 10;
-    width: auto;
-    left: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: static;
 }
-
 #btn {
     color: #333;
     font-size: 28px;
@@ -221,3 +221,16 @@ footer {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+/* 
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: #333;
+    border: 1.5px solid #333;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: white;
+    z-index: 10;
+    width: auto;
+    left: auto; */

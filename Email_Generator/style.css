@@ -1,38 +1,95 @@
 body {
-    background: linear-gradient(135deg, #ffe5b4 0%, #fff8dc 100%);
+     background: linear-gradient(135deg, #e3f0ff 0%, #f5faff 10%);
     font-size: 20px;
-    color: red;
+    color: #5a3e1b;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 h1 {
-    text-align: center;
-    font-size: 55px;
+     text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #a0522d;
+    margin-top: 40px;
 }
-p, h2 {
-    text-align: center;
-    font-size: 45px;
+
+h2 {
+     text-align: center;
+    font-size: 32px;
+    color: #d2691e;
+    margin-bottom: 20px;
 }
+
+p {    
+    text-align: center;
+    font-size: 22px;
+    color: #7c4a02;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
 span {
-    color: black;
-    font-style: oblique;
-    font-size: 50px;
+    color: #ff9800;
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 700;
 }
-footer {
-    background-color: yellow;
-    font-size: 45px;
-}
+
 button{
-    padding: 50px;
-    border: 20px solid yellowgreen;
-    position: relative;
-    left: 700px;
-    background-color: wheat;
-    border-radius: 5px;
+     padding: 18px 40px;
+    border: none;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(160, 82, 45, 0.15);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    display: block;
+    margin: 30px auto;
 }
 button:hover {
+    background-color: #d2691e;
+    transform: scale(1.07);
     cursor: pointer;
-    scale: 1.15;
-    border-radius: 10px;
 }
+
 a {
-    color: purple;
+    color: #a0522d;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ff9800;
+}
+ 
+footer {
+    background-color: #ffe5b4;
+    font-size: 20px;
+    color: #5a3e1b;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    margin-top: 40px;
+    border-top: 3px solid #ff9800;
+}
+ 
+
+footer h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #d2691e;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+footer li {
+    margin-bottom: 8px;
 }
