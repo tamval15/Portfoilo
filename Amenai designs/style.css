@@ -28,8 +28,8 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 30px;
-    font-size: 25px;
+    gap: 200px;
+    font-size: 20px;
     color: red;
     text-align: center;
     justify-content: center;
