@@ -23,7 +23,7 @@ body {
 }
 #header a {
     text-align: right;
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
 }
 #header ul {
@@ -55,6 +55,7 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 25px;
 }
 #my_cv button:hover {
     background-color: darkviolet;
@@ -118,11 +119,76 @@ body {
 #cont {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     margin-top: 20px;
     align-items: center;
 }
+#calculator {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 7px;
+    border-top-color: aqua;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-color: aquamarine;
+    border-right-color: blueviolet;
+    border-left-color: blueviolet;
+}
+#calculator h4 {
+    color: red;
+    /* padding-top: -5px; */
+    padding-bottom: 5px;
+}
+#amenai-design {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 7px;
+    border-top-color: aqua;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-color: aquamarine;
+    border-right-color: blueviolet;
+    border-left-color: blueviolet;
+}
+#amenai-design h4 {
+    color: red;
+    /* padding-top: -5px; */
+    padding-bottom: 5px;
+}
+#fun-page {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 7px;
+    border-top-color: aqua;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-color: aquamarine;
+    border-right-color: blueviolet;
+    border-left-color: blueviolet;
+}
+#fun-page h4 {
+    color: red;
+    /* padding-top: -5px; */
+    padding-bottom: 5px;
+}
+#Email-Generator {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 7px;
+    border-top-color: aqua;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-color: aquamarine;
+    border-right-color: blueviolet;
+    border-left-color: blueviolet;
+}
+#Email-Generator h4 {
+    color: red;
+    /* padding-top: -5px; */
+    padding-bottom: 5px;
+}
 #contact {
+    background-color: azure;
     border-top: 5px dotted burlywood;
     text-align: center;
     justify-items: center;
